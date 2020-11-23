@@ -20,7 +20,7 @@ public class BusDriver implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "sequenceGenerator")
-    @SequenceGenerator(name = "sequenceGenerator")
+    @SequenceGenerator(name = "sequenceGenerator", initialValue = 4)
     private Long id;
 
     @NotNull
