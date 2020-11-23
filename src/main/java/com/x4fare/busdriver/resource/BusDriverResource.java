@@ -17,6 +17,7 @@ import java.util.Optional;
 /**
  * @author finx
  */
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/api")
 public class BusDriverResource {
